@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Abhishek Ponnam</title>
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <main>
+    <!-- SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Abhishek Ponnam" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name">Abhishek Ponnam</h1>
+          <p class="title">Software Engineer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:abhishekp5510@gmail.com" class="contact-link">abhishekp5510@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+916281907581" class="contact-link">+91 6281907581</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Hyderabad, India</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/abhishekponnam" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/007abhishek" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><button class="navbar-link active" data-nav-link>About</button></li>
+          <li><button class="navbar-link" data-nav-link>Resume</button></li>
+          <li><button class="navbar-link" data-nav-link>Portfolio</button></li>
+          <li><button class="navbar-link" data-nav-link>Contact</button></li>
+        </ul>
+      </nav>
+
+      <!-- ABOUT -->
+      <!-- ABOUT -->
+<article class="about active" data-page="about">
+  <header><h2 class="h2 article-title">About Me</h2></header>
+  <section class="about-text">
+    <p>
+      I am Abhishek Ponnam, a passionate Software Engineer with expertise in automation, 
+      scalable web applications, and innovative problem-solving. At ADP, I engineered an 
+      in-house RPA platform capable of handling 40M+ transactions per month, reducing 
+      manual effort by over 70%. I also developed a modular UI framework using Angular + 
+      StencilJS, improving component reusability by 50% and cutting front-end development 
+      time by 40%.
+    </p>
+    <p>
+      Previously, I built intelligent automation for China Migration and Global View 
+      projects using C# and Selenium, saving the effort of 100+ employees and earning 
+      special appreciation from senior leadership. My background includes hands-on 
+      experience with SAP, Windows applications, Microsoft Interop, and production-ready 
+      coding practices with 5000+ lines deployed.
+    </p>
+    <p>
+      I am motivated by solving complex business challenges through intuitive, 
+      high-impact solutions. Beyond work, I actively explore emerging technologies in AI, 
+      automation, and cloud-native systems to stay ahead of the curve. My goal is to create 
+      systems that are efficient, scalable, and meaningful to people who use them.
+    </p>
+  </section>
+</article>
+
+
+      <!-- RESUME -->
+      <article class="resume" data-page="resume">
+        <header><h2 class="h2 article-title">Resume</h2></header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+            <h3 class="h3">Experience Highlights</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Member Technical Staff @ ADP</h4>
+              <span>Jul 2023 — Present</span>
+              <p class="timeline-text">
+                Developed modular UI framework (Angular + StencilJS) and engineered ADP’s in-house RPA platform
+                (Spring WebFlux, RabbitMQ), improving reusability by 50%, reducing effort by 40%, and processing
+                40M+ transactions/month.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Product Intern @ IHub-Data, IIITH</h4>
+              <span>Sep 2022 — Mar 2023</span>
+              <p class="timeline-text">Built ML-based helmet & triple riding detection system; improved accuracy by 70%.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Java Developer Intern @ Virtusa</h4>
+              <span>Feb 2022 — Apr 2022</span>
+              <p class="timeline-text">Contributed to a web app for cosmetics industry, enhancing user experience.</p>
+            </li>
+          </ol>
+        </section>
+        <!-- Download Resume Button -->
+        <section>
+          <a href="https://drive.google.com/file/d/18DN60AMN86CviCCSLpT6PPDI5jz4_kyz/view?usp=sharing"
+             target="_blank"
+             class="btn resume-btn">📄 Download Resume</a>
+        </section>
+      </article>
+
+      <!-- PORTFOLIO -->
+<article class="portfolio" data-page="portfolio">
+  <header><h2 class="h2 article-title">Portfolio / Projects</h2></header>
+  <section class="projects">
+    <ul>
+      <li>
+        <b>ADP RPA Platform</b><br>
+        Designed and built ADP’s in-house Robotic Process Automation (RPA) platform 
+        using Spring WebFlux & RabbitMQ.<br>
+        • Handles 40M+ transactions/month across logs, workflow triggers, and health signals.<br>
+        • Reduced manual operations by ~70% through automation.<br>
+        • Event-driven, reactive, and scalable to enterprise workloads.
+      </li>
+      <br>
+      <li>
+        <b>Modular UI Framework</b><br>
+        Created a reusable component library using Angular and StencilJS.<br>
+        • Increased component reusability by 50%.<br>
+        • Reduced front-end development effort by 40% across internal tools.<br>
+        • Standardized UI/UX across multiple ADP platforms.
+      </li>
+      <br>
+      <li>
+        <b>China Migration & Global View Automation</b><br>
+        Led automation for China migration and global view projects using C# and Selenium.<br>
+        • Developed 10+ automation solutions within 1 year.<br>
+        • Saved effort of 100+ employees.<br>
+        • Achieved ~70% efficiency gains and significant budget savings.<br>
+        • Recognized with special appreciation from senior director.
+      </li>
+      <br>
+      <li>
+        <b>Helmet & Triple Riding Detection (Research Project)</b><br>
+        Implemented ML-based computer vision solution for traffic safety at IHub-Data, IIITH.<br>
+        • Achieved 70% improvement in detection accuracy.<br>
+        • Built scalable architecture for real-time monitoring.
+      </li>
+      <br>
+      <li>
+        <b>Cosmetics Industry Web Application</b><br>
+        Contributed as Java Developer Intern at Virtusa.<br>
+        • Built and optimized modules for a cosmetics industry platform.<br>
+        • Enhanced user experience and streamlined workflows.
+      </li>
+    </ul>
+  </section>
+</article>
+
+
+      <!-- CONTACT -->
+<article class="contact" data-page="contact">
+  <header><h2 class="h2 article-title">Contact</h2></header>
+  <section>
+    <form 
+      action="https://formspree.io/f/mpwjkzee" 
+      method="POST" 
+      class="form" 
+      data-form>
+      
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required class="form-input" data-form-input>
+      </div>
+      
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required class="form-input" data-form-input>
+      </div>
+      
+      <div class="form-group">
+        <textarea name="message" placeholder="Message" required class="form-input" data-form-input></textarea>
+      </div>
+      
+      <button type="submit" class="btn" data-form-btn disabled>Send Message</button>
+    </form>
+    
+    <!-- Success & error messages -->
+    <p id="form-status" class="form-status"></p>
+  </section>
+</article>
+
+      
+    </div>
+  </main>
+
+  <!-- SCRIPTS -->
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
